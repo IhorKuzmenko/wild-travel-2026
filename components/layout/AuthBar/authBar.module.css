@@ -1,0 +1,26 @@
+.authBarWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.authBarWrapper a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .authBarWrapper {
+    flex-direction: row;
+    width: auto;
+    gap: 8px;
+  }
+
+  .authBarWrapper a {
+    width: auto;
+  }
+}

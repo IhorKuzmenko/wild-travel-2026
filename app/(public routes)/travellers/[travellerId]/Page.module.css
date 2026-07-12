@@ -1,0 +1,39 @@
+.pageContainer {
+  display: block;
+}
+
+.messageWrapper {
+  margin-bottom: 64px;
+}
+
+.title {
+  font-size: 28px;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.notFoundContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 44px;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .title {
+    font-size: 52px;
+  }
+}
