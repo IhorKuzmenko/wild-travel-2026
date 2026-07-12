@@ -133,6 +133,10 @@
     font-size: 32px;
   }
 
+  .actions {
+    flex-direction: row;
+  }
+
   .loginBtn {
     padding: 12px 74px;
   }
